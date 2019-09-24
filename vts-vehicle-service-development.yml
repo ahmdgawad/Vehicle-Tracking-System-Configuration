@@ -17,6 +17,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://vts-eureka-server:8761/eureka/
+  instance:
+    hostname: localhost
      
 ui:
   serverUrl: http://localhost:4200/ 
