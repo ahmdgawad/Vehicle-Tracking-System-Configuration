@@ -36,6 +36,3 @@ server:
 
 db:
   name: customerdb
-
-ui:
-  serverUrl: http://localhost:4200/
