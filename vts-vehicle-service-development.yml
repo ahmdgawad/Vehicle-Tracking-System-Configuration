@@ -28,12 +28,11 @@ eureka:
       #defaultZone: http://vts-eureka-server:8761/eureka/
       defaultZone: http://localhost:8761/eureka/
 
-security:
-  basic:
-    enabled: false
 management:
-  security:
-    enabled: false
+   endpoints:
+     web:
+       exposure:
+         include: '*'
         
 server:
   port: 9091
